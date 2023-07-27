@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+    <select id="batch" style="margin:2%">
+        <option value="b1">Batch1</option>
+        <option value="b2">Batch2</option>
+    </select>
+
+    <table id="myTable" border="1">
+        <thead>
+            <tr>
+                <th><input type="checkbox" id="selectAll"/></th>
+                <th>First Name: </th>
+                <th>Last Name: </th>
+                <th>Roll : </th>
+                <th>Action : </th>
+            </tr>
+
+            <tr>
+                <th></th>
+                <th>
+                    <input type="text" placeholder="first name" id="first_name"/>
+                </th>
+                <th>
+                    <input type="text" placeholder="last name" id="last_name"/>
+                </th>
+                <th><input type="text" placeholder="roll" id="roll"/></th>
+                <th><button class="btn" id="addRow">Add Row</button></th>
+            </tr>
+
+        </thead>
+        
+        <tbody></tbody>
+    </table>
+    <button id="submit" style="margin:2%">Submit</button>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
